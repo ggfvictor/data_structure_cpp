@@ -98,14 +98,14 @@ int main() {
                     cin >> e.num >> e.name >> e.price;
                     listinsert(L, i, e);
                 }
-                cout << "计算机中已经保存的图是信息" << endl;
+                cout << "计算机中已经保存的图书信息" << endl;
                 cout << "书号  书名  价格" << endl;
                 output(L);
                 cout << endl;
                 break;
 
             case 2:
-                //输入图书信息
+                //插入图书信息
                 cout << "请输入插入位置：";
                 int k;
                 cin >> k;
