@@ -94,9 +94,8 @@ int main() {
     int num;
     cin >> num;
     cout << "请输入跳舞者的姓名和性别（男M,女F）:" << endl;
-    for (int i = 1; i <= num; i++) {
+    for (int i = 1; i <= num; i++)
         cin >> dancer[i - 1].name >> dancer[i - 1].sex;
-        DancePartner(dancer, num);
-        return 0;
-    }
+    DancePartner(dancer, num);
+    return 0;
 }
